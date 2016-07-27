@@ -1,0 +1,35 @@
+#content{
+	padding-left:12%;
+}
+#cn_xoa{
+	width:100%;
+	padding-top:25%;
+	padding-left:20%;
+	height: 80px;
+}
+#cn_sua{
+	
+	width: 80%;
+	margin-top:25%;
+	margin-left: 12%;
+}
+#edtname{
+	margin-left: 3%;
+	margin-bottom: 7%
+	
+}
+#edtclass{
+	margin-left: 5%;
+	margin-bottom: 10%;
+}
+#edtpoint{
+	margin-left: 6%;
+	margin-bottom: 10%;
+}
+#edtid{
+	margin-left: 15%;
+	margin-bottom: 10%;
+}
+#btnupdate{
+	margin-left: 40%;
+}

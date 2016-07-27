@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>Assingment_DG1</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    		-->
+    		<link rel="stylesheet" href="css/main.css">
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    		<script type="text/javascript" src="dojox/mobile/deviceTheme.js"></script>
+    		<script type="text/javascript" data-dojo-config="isDebug: false, async: true, parseOnLoad: true, mblHideAddressBar: false" src="dojo/dojo.js"></script>
+    	</head>
+    	<body style="display: none;">
+    		<div data-dojo-type="dojox.mobile.ScrollableView" id="view0" data-dojo-props="selected:true">
+		<div data-dojo-type="dojox.mobile.Heading" data-dojo-props="label:'Manager Student'"></div>
+		<ul data-dojo-type="dojox.mobile.TabBar" style=""  fixed="bottom" >
+
+			<li data-dojo-type="dojox.mobile.TabBarButton" style=""
+				data-dojo-props="moveTo:'view1',icon:'images/ic_add.png'">Insert Student</li>
+			<li data-dojo-type="dojox.mobile.TabBarButton" style=""
+				data-dojo-props="moveTo:'view2',icon:'images/ic_manager.png'">Information Student</li>
+			
+		</ul>
+		<div data-dojo-type="dojox.mobile.View" id="view1"
+			data-dojo-props="selected:true">
+<!------------ form add information student --------------->			
+			<div id="layoutForm">	
+				<form name="ifstudent" action="#" method="#">
+					ID : <input type="text" id="txtid" placeholder="input id "><br>
+					Name :<input type="text" id="txtname" placeholder="input name  "><br>
+					Class :<input type="text" id="txtclass" placeholder="input class"><br>
+					Point :<input type="text" id="txtmark" placeholder="input point"><br>
+					<input type="button" value="Reset" id="tbnreset">
+					<input type="button" value="Submit" id="tbnsubmit" onclick="putData();">
+				</form>
+			</div>	
+<!-- ----------------------------------------- -->			
+			</div>
+		<div data-dojo-type="dojox.mobile.View" id="view2"
+			data-dojo-props="selected:false">
+			<ul data-dojo-type="dojox.mobile.TabBar" fixed="bottom">
+				<li data-dojo-type="dojox.mobile.TabBarButton"  style=""
+				data-dojo-props="moveTo:'view3'">Show student</li>
+				<li data-dojo-type="dojox.mobile.TabBarButton" style=""
+				data-dojo-props="moveTo:'view4'">Delete student</li>
+				<li data-dojo-type="dojox.mobile.TabBarButton" style=""
+				data-dojo-props="moveTo:'view5'">Update student</li>
+			</ul>
+			<div data-dojo-type="dojox.mobile.View" id="view3"
+				data-dojo-props="selected:true">
+				<div data-dojo-type="dojox.mobile.Accordion">
+					<div id="content" data-dojo-type="dojox.mobile.ContentPane"
+						data-dojo-props='label:"List student"'></div>
+				</div>
+				<div ></div>
+			</div>
+			<div data-dojo-type="dojox.mobile.View" id="view4"
+				data-dojo-props="selected:false">
+				<div id="cn_xoa">
+					<input type="text" id="edtxoa" placeholder="select id on delete ">
+					<input type="button" value="Delete" id="btndelete" onclick="deleteforid();">
+				</div>
+			</div>
+			<div data-dojo-type="dojox.mobile.View" id="view5"
+				data-dojo-props="selected:false">
+				<div id="cn_sua">
+					Name:<input type="text" id="edtname" placeholder="input name "><br><br>
+					Class:<input type="text" id="edtclass" placeholder="input lass "><br><br>
+					Point:<input type="text" id="edtpoint" placeholder="input point "><br><br>
+					Id:<input type="text" id="edtid" placeholder="input id "><br>
+					<input type="button" value="Update" id="btnupdate" onclick="update();">
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+		</div>
+    		<script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    	</body>
+</html>

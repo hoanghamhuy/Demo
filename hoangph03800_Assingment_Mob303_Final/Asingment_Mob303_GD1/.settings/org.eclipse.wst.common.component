@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Asingment_Mob303_GD1">
+        <wb-resource deploy-path="/" source-path="/apps/Assingment_DG1/common"/>
+        <wb-resource deploy-path="/" source-path="/www"/>
+        <wb-resource deploy-path="/" source-path="/apps/Assingment_DG1/android"/>
+        <wb-resource deploy-path="/" source-path="/apps/Assingment_DG1/windowsphone8"/>
+        <wb-resource deploy-path="/" source-path="/apps/Assingment_DG1/mobilewebapp"/>
+        <wb-resource deploy-path="/" source-path="/apps/Assingment_DG1/desktopbrowser"/>
+        <property name="context-root" value="Asingment_Mob303_GD1"/>
+    </wb-module>
+</project-modules>

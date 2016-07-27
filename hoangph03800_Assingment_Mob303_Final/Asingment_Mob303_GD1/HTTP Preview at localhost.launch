@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.wst.server.preview.launchConfigurationType">
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="com.worklight.studio.plugin.launch.group"/>
+</listAttribute>
+<stringAttribute key="server-id" value="HTTP Preview at localhost"/>
+</launchConfiguration>

@@ -1,0 +1,30 @@
+﻿
+/* Stylesheet content from css/main.css in folder common */
+#layoutForm{
+	width: 80%;
+	margin-top:25%;
+	margin-left: 12%;
+}
+#txtid{
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+#txtname{
+	margin-left: 1%;
+	margin-bottom: 10%;
+}
+#txtclass{
+	margin-left: 1%;
+	margin-bottom: 10%;
+}
+#txtmark{
+	margin-left: 3%;
+	margin-bottom: 7%;
+}
+#tbnreset{
+	margin-left: 27%;
+}
+/* Stylesheet content from css/main.css in folder windowsphone8 */
+
+/* this CSS file extends the application CSS file found under common\css */
+
